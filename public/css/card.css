@@ -1,0 +1,30 @@
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    text-align: left;  /* Align text to the left, not centered */
+    width: 30%;  /* Each card takes up 30% of the width */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+   
+}
+
+.card p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.card .heading {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}

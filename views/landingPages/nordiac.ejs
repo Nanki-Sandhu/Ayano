@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <%-include("../includes/navbar.ejs")%>
+    <div class="image-section">
+        <img src="./images/project2.avif" alt="Full Screen Image" class="full-screen-image" style="object-fit: cover;">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p style="font-size: 40px; margin-left: 50px;line-height: 1.5em; color: black;">Personalized Comfort in Sustainable Living
+                </p>
+            </div>
+            <div class="col">
+                <p style="color: black; font-size: 22px; line-height: 1.5em;">The Nordic Serenity Residence embodies our commitment to crafting personalized, sustainable homes that reflect modern living standards. Nestled in a serene setting, this residential project combines luxury with eco-conscious design. The residence is tailored to meet the specific needs and preferences of its owners while incorporating advanced sustainable features.</p>
+                <p>The design integrates natural materials and energy-efficient technologies, including solar panels and high-performance insulation, to minimize environmental impact. Spacious interiors are enhanced by large windows that maximize natural light and offer breathtaking views of the surrounding landscape. The open-plan layout fosters a sense of flow and connectivity throughout the home.
+                </p>
+                <p>Outdoor living spaces, such as a landscaped garden and terrace, provide additional areas for relaxation and entertainment. The Nordic Serenity Residence is a perfect example of how contemporary design can harmoniously blend with sustainability, offering both comfort and environmental responsibility.</p>
+                
+               <div class="table">
+                <p>Location</p>
+                <p class="muted">Stockholm</p>
+               </div>
+               <div class="table">
+                <p>Duration</p>
+                <p class="muted">1 Year</p>
+               </div>
+               <div class="table">
+                <p>Size</p>
+                <p class="muted">5340 m2</p>
+               </div>
+               <div class="table">
+                <p>Year</p>
+                <p class="muted">2024</p>
+               </div>
+               <div class="table" style="border-bottom: none;">
+                <p>Category</p>
+                <p class="muted">Multipurpose</p>
+               </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <%-include("../includes/footer.ejs")%>
+</body>
+</html>

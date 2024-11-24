@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <%-include("../includes/navbar.ejs")%>
+    <div class="image-section">
+        <img src="./images/project1.avif" alt="Full Screen Image" class="full-screen-image" style="object-fit: cover;">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p style="font-size: 40px; margin-left: 50px;line-height: 1.5em; color: black;">Innovative Architecture,
+                    <br />Inspired by Oslo.
+                </p>
+            </div>
+            <div class="col">
+                <p style="color: black; font-size: 22px; line-height: 1.5em;">The Harborview Office Tower represents a fusion of modern design and practical functionality. Located in the heart of Oslo's bustling business district, this project exemplifies our commitment to creating impactful commercial spaces. The tower features a sleek, contemporary façade that enhances the city skyline, while its interior design promotes a productive and collaborative work environment.</p>
+                <p>At our Oslo-based architecture studio, we are dedicated to creating spaces that inspire and endure.
+                    Specializing in commercial, multipurpose, and residential architecture, we blend creativity with
+                    functionality to bring your vision to life. Our approach is rooted in sustainability, ensuring that
+                    each
+                    project not only meets current needs but also contributes positively to the environment.</p>
+                <p>We incorporated advanced sustainable technologies, such as energy-efficient HVAC systems and smart lighting controls, to reduce the building's carbon footprint. The open-plan offices and flexible workspaces are designed to accommodate evolving business needs and foster innovation. The inclusion of green terraces and rooftop gardens not only adds aesthetic value but also provides employees with relaxing outdoor spaces.
+                </p>
+                <p>The project also focuses on enhancing connectivity, with easy access to public transportation and amenities. By blending cutting-edge design with functionality, the Harborview Office Tower stands as a testament to our ability to create spaces that are both visually striking and highly efficient.</p>
+                
+               <div class="table">
+                <p>Location</p>
+                <p class="muted">Oslo</p>
+               </div>
+               <div class="table">
+                <p>Duration</p>
+                <p class="muted">6 Months</p>
+               </div>
+               <div class="table">
+                <p>Size</p>
+                <p class="muted">4200 m2</p>
+               </div>
+               <div class="table">
+                <p>Year</p>
+                <p class="muted">2025</p>
+               </div>
+               <div class="table" style="border-bottom: none;">
+                <p>Category</p>
+                <p class="muted">Residential</p>
+               </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <%-include("../includes/footer.ejs")%>
+</body>
+</html>

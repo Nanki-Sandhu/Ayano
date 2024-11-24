@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/stat.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <%-include("../includes/navbar.ejs")%>
+    <div class="image-section">
+        <img src="./images/heroImage.avif" alt="Full Screen Image" class="full-screen-image">
+    </div>
+     
+    <div class="container">
+        <!--text-section-->
+        <div class="row">
+            <div class="col">
+                <p style="font-size: 40px; margin-left: 50px;line-height: 1.5em; color: black;">Innovative Architecture,
+                    <br />Inspired by Oslo.
+                </p>
+            </div>
+            <div class="col">
+                <p style="color: black; font-size: 22px; line-height: 1.5em;">With a commitment to innovation and
+                    excellence, we transform ideas into reality, creating spaces that are
+                    both aesthetically pleasing and highly functional. Let us help you shape the future of your built
+                    environment.</p>
+                <p>At our Oslo-based architecture studio, we are dedicated to creating spaces that inspire and endure.
+                    Specializing in commercial, multipurpose, and residential architecture, we blend creativity with
+                    functionality to bring your vision to life. Our approach is rooted in sustainability, ensuring that
+                    each
+                    project not only meets current needs but also contributes positively to the environment.</p>
+                <p>Our team of passionate architects and designers works closely with clients, fostering a collaborative
+                    process that prioritizes your unique needs and preferences. We believe that the best designs come
+                    from
+                    understanding the nuances of each project, from the bustling energy of commercial spaces to the
+                    versatile requirements of multipurpose facilities and the personalized touches of residential homes.
+                </p>
+                <a href="#" style="color: black;">More about us</a>
+            </div>
+        </div>
+        
+
+        <div style="margin-top: 10%;">
+            <div class="card-row">
+                <div class="card">
+                    <img src="./images/card1.webp" alt="Image 1">
+                    <p class="heading">Commercial</p>
+                    <p>Designing innovative, functional commercial spaces that enhance business productivity and create
+                        memorable experiences.</p>
+                    <a href="#" style="color: black;">MORE INFORMATION</a>
+                </div>
+                <div class="card">
+                    <img src="./images/card2.webp" alt="Image 2">
+                    <p class="heading">Multipurpose</p>
+                    <p>Creating versatile, adaptable spaces that seamlessly integrate various functions, catering to
+                        diverse
+                        needs and activities.</p>
+                    <a href="#" style="color: black;">MORE INFORMATION</a>
+                </div>
+                <div class="card">
+                    <img src="./images/card3.webp" alt="Image 3">
+                    <p class="heading">Residential</p>
+                    <p>Crafting personalized, sustainable homes that blend comfort, style, and functionality for modern
+                        living.</p>
+                    <a href="#" style="color: black;">MORE INFORMATION</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Project Section-->
+        <div class="projects-section">
+            <p style="font-size: 35px;">Latest Projects</p>
+            <div class="projects-row">
+                <div class="project">
+                    <a href="/harborview"><img src="./images/project1.avif" alt="Project 1"></a>
+                    <p class="heading">Harborview Office</p>
+                </div>
+                <div class="project">
+                    <a href="/nordiac"><img src="./images/project2.avif" alt="Project 2"></a>
+                    <p class="heading">Nordic Serenity</p>
+                </div>
+            </div>
+            <div class="projects-row">
+                <div class="project">
+                   <a href="/greenCity"><img src="./images/project3.avif" alt="Project 3"></a>
+                    <p class="heading">Green City</p>
+                </div>
+                <div class="project">
+                    <a href="/newCulture"><img src="./images/project4.avif" alt="Project 4"></a>
+                    <p class="heading">New Culure</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Stat Section-->
+        <div class="stats-section">
+            <div class="stat-card">
+                <h3>PROJECTS</h3>
+                <p class="number">240+</p>
+                <p>Delivering diverse architectural solutions, showcasing our expertise and creativity.</p>
+            </div>
+            <div class="stat-card">
+                <h3>CLIENTS</h3>
+                <p class="number">150+</p>
+                <p>Building strong relationships through trust, collaboration, and exceptional service.</p>
+            </div>
+            <div class="stat-card">
+                <h3>HAPPY CLIENTS</h3>
+                <p class="number">100%</p>
+                <p>Client satisfaction is our top priority, reflected in glowing reviews.</p>
+            </div>
+            <div class="stat-card">
+                <h3>COMMITMENT</h3>
+                <p class="number">110%</p>
+                <p>Going above and beyond to exceed expectations in every project.</p>
+            </div>
+        </div>
+
+        <!--Latest News-->
+        <div style="margin-top: 8%;">
+            <p style="font-size: 35px;">Latest News</p>
+            <div class="card-row">
+                <div class="card">
+                    <img src="./images/card4.webp" alt="Image 1">
+                    <p class="heading">Sustainable Design: Building a Greener Future in Architecture</p>
+                    <p>Explore eco-friendly materials and innovative practices that are shaping the future of
+                        sustainable
+                        architecture, reducing environmental impact significantly.</p>
+                    <a href="#" style="color: black;">READ ARTICLE</a>
+                </div>
+                <div class="card">
+                    <img src="./images/card5.webp" alt="Image 2">
+                    <p class="heading">Maximizing Space: Tips for Multipurpose Architecture</p>
+                    <p>Learn how to create versatile, adaptable spaces that meet various needs, optimizing functionality
+                        and
+                        flexibility in architectural design.</p>
+                    <a href="#" style="color: black;">READ ARTICLE</a>
+                </div>
+                <div class="card">
+                    <img src="./images/card6.avif" alt="Image 3">
+                    <p class="heading">Enhancing Business through Thoughtful Design</p>
+                    <p>Architectural design can improve customer experiences, boost productivity, and drive success in
+                        commercial environments.</p>
+                    <a href="#" style="color: black;">READ ARTICLE</a>
+                </div>
+            </div>
+        </div>
+        <%-include("../includes/footer.ejs")%>
+</body>
+</html>
